@@ -27,8 +27,7 @@ This project aims to:
 
 ## 📂 Data Source
 The dataset used in this project is too large to store directly on GitHub.  
-You can download it here: **[Google Drive Link]([https://drive.google.com/your-file-link](https://drive.google.com/file/d/1Ym9G25c7AZBP7sVIWlbh1L0g5Y5sUCR9/view?usp=sharing))**
-
+You can download it here: **[Google Drive Link](https://drive.google.com/file/d/1Ym9G25c7AZBP7sVIWlbh1L0g5Y5sUCR9/view?usp=sharing)**
 After downloading, unzip the file and place the contents in the `data` folder of the project.
 
 ## 🚧 Current Stage  
