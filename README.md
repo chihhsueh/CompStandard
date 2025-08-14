@@ -59,10 +59,11 @@ This project aims to:
 
 ### **3️⃣ Data Pipeline Scripts**
 - **`ingestion_db.py`** – Handles database connection and ingestion processes.
+  - **Log Summary (`ingestion_db.log`)**: Records timestamps and confirms successful ingestion of data into the database.  
 - **`get_vendor_summary.py`** – Queries and generates summarized vendor performance tables for analysis.
+ - **Log Summary (`get_vendor_summary.log`)**: Creates a vendor summary table with key metrics, cleans and standardizes the data, then ingests it back into the database.  
 
 ---
-
 
 ## 🛠 Tools & Technologies
 - **Python** (in Jupyter Notebook)
