@@ -1,0 +1,9 @@
+2025-07-31 14:02:12,282 - INFO - Ingesting purchases.csv in db
+2025-07-31 14:02:52,701 - INFO - Ingesting purchase_prices.csv in db
+2025-07-31 14:02:52,870 - INFO - Ingesting vendor_invoice.csv in db
+2025-07-31 14:02:53,315 - INFO - Ingesting begin_inventory.csv in db
+2025-07-31 14:02:56,357 - INFO - Ingesting end_inventory.csv in db
+2025-07-31 14:03:22,097 - INFO - Ingesting sales.csv in db
+2025-07-31 14:12:12,545 - INFO - ------Ingestion Complete------
+2025-07-31 14:12:12,546 - INFO - 
+Total Time Taken" 10.108745614687601 minutes
