@@ -78,5 +78,9 @@ You can download it here: **[Google Drive Link](https://drive.google.com/file/d/
 After downloading, unzip the file and place the contents in the `data` folder of the project.
 
 ## 🚧 Current Stage  
-This project is currently in the Power BI development phase, where interactive dashboards and visualizations are being built to present the analysis findings more effectively.
+This project is currently in the **Power BI development phase**, where interactive dashboards and visualizations are being built to present the analysis findings more effectively.
 
+## 📈 Next Steps
+- Finalize Power BI dashboards.
+- Publish summary metrics and key charts in the repository’s `/visuals` folder.
+- Add documentation for running the scripts and reproducing results.
