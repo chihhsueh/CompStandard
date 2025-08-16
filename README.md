@@ -78,8 +78,38 @@ The dataset used in this project is too large to store directly on GitHub.
 You can download it here: **[Google Drive Link](https://drive.google.com/file/d/1Ym9G25c7AZBP7sVIWlbh1L0g5Y5sUCR9/view?usp=sharing)**
 After downloading, unzip the file and place the contents in the `data` folder of the project.
 
+### 📑 `vendor_sales_summary` Table
+
+This aggregated table was created during the analysis by combining data from `purchases`, `purchase_prices`, `vendor_invoice`, and `sales`.
+
+**Purpose:**  
+To provide vendor-level and brand-level performance metrics for decision-making in the alcohol wholesale/retail industry.
+
+**Key Columns:**
+- `VendorNumber` – Unique identifier for each vendor
+- `VendorName` – Name of the vendor
+- `Brand` – Brand ID linked to the alcohol product
+- `Description` – Product description
+- `TotalPurchaseDollars` – Total spend on purchases from the vendor
+- `TotalSalesDollars` – Total revenue from sales of the vendor’s products
+- `GrossProfit` – Revenue minus costs, excluding overhead
+- `ProfitMargin` – Gross profit as a percentage of sales
+- `StockTurnover` – Inventory turnover ratio
+- `SalesToPurchaseRatio` – Ratio of sales to purchases, indicating efficiency
+- `UnsoldInventoryValue` – Dollar value of unsold stock
+
+**Example Preview:**
+
+| VendorNumber | VendorName               | Brand | Description              | TotalSalesDollars | GrossProfit | ProfitMargin | StockTurnover |
+|--------------|--------------------------|-------|--------------------------|-------------------|-------------|--------------|---------------|
+| 1128         | BROWN-FORMAN CORP         | 1233  | Jack Daniels No 7 Black  | 6,728,193.10       | 1,290,667.91| 25.30%       | 0.98          |
+| 4425         | MARTIGNETTI COMPANIES     | 3405  | Tito's Handmade Vodka    | 5,615,123.70       | 1,015,032.27| 21.06%       | 0.97          |
+| 17035        | PERNOD RICARD USA         | 8068  | Absolut 80 Proof         | 4,611,401.50       | 1,119,816.92| 24.68%       | 1.00          |
+
+
 ## 🚧 Current Stage  
 This project is currently in the **Power BI development phase**, where interactive dashboards and visualizations are being built to present the analysis findings more effectively.
+
 
 ## 📈 Next Steps
 - Finalize Power BI dashboards.
