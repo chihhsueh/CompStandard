@@ -107,11 +107,6 @@ To provide vendor-level and brand-level performance metrics for decision-making 
 | 17035        | PERNOD RICARD USA         | 8068  | Absolut 80 Proof         | 4,611,401.50       | 1,119,816.92| 24.68%       | 1.00          |
 
 
-## 🚧 Current Stage  
-This project is currently in the **Power BI development phase**, where interactive dashboards and visualizations are being built to present the analysis findings more effectively.
+## 🎉 Project Status
 
-
-## 📈 Next Steps
-- Finalize Power BI dashboards.
-- Publish summary metrics and key charts in the repository’s `/visuals` folder.
-- Add documentation for running the scripts and reproducing results.
+This project is completed. All stages — data ingestion, exploratory analysis, vendor performance evaluation, and Power BI dashboard development — have been finalized. The repository includes code, logs, and visuals that showcase the full workflow from raw data to interactive insights.
